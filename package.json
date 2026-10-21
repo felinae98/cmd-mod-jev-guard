@@ -1,0 +1,33 @@
+{
+  "name": "cmd-mod-jev-guard",
+  "version": "0.1.0",
+  "description": "Jev-powered risk scoring and prompt-injection guard for Command Code tool calls",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.3"
+  },
+  "keywords": [
+    "cmd-mod",
+    "cmd-mod-hook",
+    "cmd-mod-command",
+    "jev",
+    "typesafe",
+    "prompt-injection",
+    "security"
+  ],
+  "repository": "https://github.com/felinae98/cmd-mod-jev-guard",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "commandcode": {
+    "mods": [
+      "./src/mod.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
